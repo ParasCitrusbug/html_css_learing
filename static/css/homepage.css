@@ -1,21 +1,25 @@
 .main-container {
   background-color: #ffffff;
+  padding: 0px 0px 0px 96px;
 }
 body {
   font-family: 'DM Sans', sans-serif;
+  margin: 0 !important;
+}
+.main-section-full-container {
+  background-color: #ffffff;
+  margin: auto;
 }
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 20px;
 }
 .homepage-header {
-  padding: 0px;
   text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 50px;
+  padding: 33px 0px;
   position: relative;
 }
 .homepage-header h1 {
@@ -33,7 +37,7 @@ body {
     font-weight: bold;
 }
 .homepage-header button:hover {
-    background-color: black;
+    background-color: #EDB031;
     color: white;
 }
 .girl-image-caption-text{
@@ -48,49 +52,58 @@ body {
 }
 .main-content{
   margin:auto;
-  padding: 20px;
   display: flex;
   position: relative;
-  margin-top: 0px;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 0px;
 }
 .content-container{
-  width: 50%;
-  margin: 100px 0px;
-  padding: 20px;
+  padding: 172px 0px;
   display: block;
   align-content: space-evenly;
   
 }
 .image-container{
-  width: 50%;
   position: relative;
 }
 .h1-title {
   margin-bottom: 0px;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+letter-spacing: 0%;
+
 }
 .h1-subtitle {
   margin-top: -10px;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+letter-spacing: 0%;
+
 }
 .input-field{
-  width: 40%;
-  height: 50px;
-  border-radius: 150px;
-  padding: 0px 20px;
+  width: 80%;
+  height: 62px;
+  border-radius: 100px;
+  padding: 0px 60px 0px 20px;
   border: 1px solid #000000;
 }
 .p-description {
-  margin: 20px 0px;
-  font-size: 1.2em;
   color: #173B58;
+font-weight: 500;
+font-size: 24px;
+line-height: 46px;
+letter-spacing: 0%;
+
 }
 .get-started-button{
-  border-radius: 150px;
+  border-radius: 100px;
   background-color: #EDB031;
   color: #173B58;
   border: none;
-  height: 52px;
-  width: 25%;
+  height: 64px;
+  width: 48%;
   cursor: pointer;
   margin-left: -10%;
   font-weight: bold;
@@ -112,44 +125,45 @@ body {
 .brand-buttons {
   display: flex;
   align-items: center;
-  margin-top: 20px;
   gap: 10px;
 }
 .feide-logo, .voppe-logo {
   border-radius: 150px;
   background-color: #EDF2F7;
   cursor: pointer;
-  height: 50px;
-  width: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .feide-logo-image, .voppe-logo-image {
-  height: 30px;
-  width: 70px;
+  margin: 16px 32px 17px 32px;
 }
 .girl-image-overlay {
   position: absolute;
-  width: 40%;
+  width: 47%;
   background-color: #ffffff;
   border: 1px solid #C3C4C6;
   border-radius: 16px;
   top: 76%;
-  left: 0%;
+  left: -11%;
 }
 .girl-image-overlay p{
 
-  font-size: 1em;
   color: #333;
-  padding: 0 20px;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: 3%;
+padding: 28px 20px 0px 20px;
+margin: 0px;
 }
 .girl-image-overlay-background {
   display: flex;
   gap: 12px;
   justify-content: left;
   align-items: stretch;
-  padding: 0 20px;
+  padding: 16px 9px 16px 20px;
 }
 .girl-image-caption{
   font-size: 0.9em;
@@ -181,6 +195,10 @@ body {
   align-items: flex-start;
   flex-direction: column;
 }
+.girl-image-overlay-background-with-image {
+  border-radius: 16px;
+  display: flex;
+}
 .girl-image-overlay-background-circle-text{
   color: #000000;
   font-weight: 500;
@@ -188,7 +206,12 @@ body {
   font-size: 0.8em !important;
   line-height: 100%;
   letter-spacing: 3%;
+  margin: 0px;
+  opacity: 0.7;
 
+}
+.girl-image-overlay-background-image{
+  position: relative;
 }
 .girl-image-overlay-background-circle-title {
   font-size: 1.2em;
@@ -213,7 +236,13 @@ body {
 }
 
 .section-2-container {
+  padding: 115px 0px;
+  background: #F6F8FB;
+  border: 1px solid #DEDEDE;
+}
+.section-2-inner-container{
   background-color: #F6F8FB;
+  padding: 115px 122px;
 }
 .section-2-title{
   font-weight: 700;
@@ -221,24 +250,20 @@ body {
   line-height: 57px;
 }
 .section-2-head-text{
-  padding-top: 120px;
   text-align: center;
 }
 .section-2-card-video{
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  max-height: 400px;
 }
 .section-2-text-content{
   margin: 20px;
 }
 .section-2-card{
-  width: 300px;
-  height: 400px;
   background-color: #FFFFFF;
   border-radius: 16px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-  margin: 20px;
+  margin-right: 31px;
 }
 .section-2-card-text {
   padding: 20px;
