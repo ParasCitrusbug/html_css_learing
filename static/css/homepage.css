@@ -251,13 +251,14 @@ margin: 0px;
 }
 .section-2-head-text{
   text-align: center;
+  padding: 0px 0px 60px 0px;
 }
 .section-2-card-video{
   display: flex;
   max-height: 400px;
 }
 .section-2-text-content{
-  margin: 20px;
+  padding: 48px 57px 49px 56px;
 }
 .section-2-card{
   background-color: #FFFFFF;
@@ -340,10 +341,12 @@ letter-spacing: 0px;
   gap: 10px;
 }
 .section-2-text-container{
-    background: #173B58;
-    padding: 20px;
-    margin: 20px;
+    background: #183C59;
+    margin-top: 30px;
     border-radius: 16px;
+}
+.section-2-emoji {
+  text-decoration: none;
 }
 .section-2-text-title{
   margin: 0;
@@ -363,7 +366,8 @@ letter-spacing: 0px;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.2px;
-  color: #FFFFFF
+  color: #FFFFFF;
+  padding: 11px 0px 0px 0px;
 }
 .section-3-head-text {
   font-weight: 700;
@@ -371,6 +375,7 @@ letter-spacing: 0px;
   line-height: 48px;
   letter-spacing: 4%;
   text-align: center;
+  color: #173B58;
 }
 .section-3-container {
   background-color: #FFFFFF;
@@ -385,20 +390,27 @@ letter-spacing: 0px;
   line-height: 37px;
   letter-spacing: 0%;
   color: #173B58;
+  margin: 0px;
 }
 .section-3-text-paragraph :nth-last-child(1){
   cursor: pointer;
 }
 .section-3-content{
-  margin: 20px;
+  background-color: #ffffff;
+  padding: 99px 100px 60px 100px;
 
 }
-
+.section-3-text-content{
+  padding: 80px 21px 0px 21px;
+}
 .section-4-container{
   background-color: #ffffff;
-  padding: 50px 0px;
+  padding: 0px 100px 99px 100px;
 }
 
+.section-4-card-text {
+  padding: 49px 30px 31px 30px;
+}
 .section-4-content{
   display: flex;
   justify-content: center;
@@ -408,7 +420,6 @@ letter-spacing: 0px;
         rgba(150, 209, 227, 0.2) 45.21%,
         rgba(216, 228, 214, 0.2) 96.81%
     );
-  padding: 50px 30px;
   border-radius: 20px;
   margin-bottom: 50px;
 }
@@ -417,6 +428,7 @@ letter-spacing: 0px;
     align-items: center;
     justify-content: flex-end;
     flex-wrap: wrap;
+    padding: 40px 0px 40px 40px;
 }
 .section-4-card-text-content {
     display: flex;
@@ -430,7 +442,8 @@ font-size: 28px;
 line-height: 100%;
 letter-spacing: 0%;
 color: #173B58;
-margin: 20px 0px 10px 0px;
+padding: 0px 0px 6px 0px;
+margin: 0px;
 }
 .section-4-card-paragraph{
 font-weight: 500;
@@ -438,6 +451,7 @@ font-size: 16px;
 line-height: 100%;
 letter-spacing: 0%;
 color: #173B58;
+margin: 0px 0px 20px 0px;
 }
 .section-4-card-location {
   display: flex;
@@ -452,6 +466,8 @@ letter-spacing: 0%;
 color: #173B58;
 text-emphasis: bold;
 font-weight: bold;
+padding: 20px 0px;
+margin: 0px;
 }
 .section-4-card-paragraph-text{
 font-weight: 400;
@@ -459,7 +475,8 @@ font-size: 16px;
 line-height: 37px;
 letter-spacing: 0%;
 color: #173B58;
-
+padding: 20px 0px 0px 0px;
+margin: 0px;
 }
 
 
