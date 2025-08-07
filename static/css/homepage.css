@@ -137,6 +137,7 @@ letter-spacing: 0%;
 }
 .feide-logo-image, .voppe-logo-image {
   margin: 16px 32px 17px 32px;
+  
 }
 .girl-image-overlay {
   position: absolute;
@@ -235,38 +236,38 @@ margin: 0px;
   margin-top: 0px;
 }
 
-.section-2-container {
+.glimpses-classrooms-container {
   padding: 115px 0px;
   background: #F6F8FB;
   border: 1px solid #DEDEDE;
 }
-.section-2-inner-container{
+.glimpses-classrooms-inner-container{
   background-color: #F6F8FB;
   padding: 115px 122px;
 }
-.section-2-title{
+.glimpses-classrooms-title{
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
 }
-.section-2-head-text{
+.glimpses-classrooms-head-text{
   text-align: center;
   padding: 0px 0px 60px 0px;
 }
-.section-2-card-video{
+.glimpses-classrooms-card-video{
   display: flex;
   max-height: 400px;
 }
-.section-2-text-content{
+.glimpses-classrooms-text-content{
   padding: 48px 57px 49px 56px;
 }
-.section-2-card{
+.glimpses-classrooms-card{
   background-color: #FFFFFF;
   border-radius: 16px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   margin-right: 31px;
 }
-.section-2-card-text {
+.glimpses-classrooms-card-text {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -340,15 +341,15 @@ letter-spacing: 0px;
   align-items: center;
   gap: 10px;
 }
-.section-2-text-container{
+.glimpses-classrooms-text-container{
     background: #183C59;
     margin-top: 30px;
     border-radius: 16px;
 }
-.section-2-emoji {
+.glimpses-classrooms-emoji {
   text-decoration: none;
 }
-.section-2-text-title{
+.glimpses-classrooms-text-title{
   margin: 0;
   font-weight: 700;
   font-style: Bold;
@@ -358,7 +359,7 @@ letter-spacing: 0px;
   color: #FFFFFF
 }
 
-.section-2-text-paragraph{
+.glimpses-classrooms-text-paragraph{
   margin: 0;
   font-family: DM Sans;
   font-weight: 400;
@@ -369,7 +370,7 @@ letter-spacing: 0px;
   color: #FFFFFF;
   padding: 11px 0px 0px 0px;
 }
-.section-3-head-text {
+.undervisningsplan-head-text {
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
@@ -377,14 +378,14 @@ letter-spacing: 0px;
   text-align: center;
   color: #173B58;
 }
-.section-3-container {
+.undervisningsplan-container {
   background-color: #FFFFFF;
   margin-top: 50px;
 }
-.section-3-vector-logo{
+.undervisningsplan-vector-logo {
   margin-top: -25px;
 }
-.section-3-text-paragraph{
+.undervisningsplan-text-paragraph{
   font-weight: 400;
   font-size: 20px;
   line-height: 37px;
@@ -392,26 +393,26 @@ letter-spacing: 0px;
   color: #173B58;
   margin: 0px;
 }
-.section-3-text-paragraph :nth-last-child(1){
+.undervisningsplan-text-paragraph :nth-last-child(1){
   cursor: pointer;
 }
-.section-3-content{
+.undervisningsplan-content{
   background-color: #ffffff;
-  padding: 99px 100px 60px 100px;
+  padding: 99px 100px 10px 100px;
 
 }
-.section-3-text-content{
+.undervisningsplan-text-content{
   padding: 80px 21px 0px 21px;
 }
-.section-4-container{
+.undervisningsplan-user-detail-container{
   background-color: #ffffff;
   padding: 0px 100px 99px 100px;
 }
 
-.section-4-card-text {
+.undervisningsplan-user-detail-card-text {
   padding: 49px 30px 31px 30px;
 }
-.section-4-content{
+.undervisningsplan-user-detail-content{
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -421,22 +422,22 @@ letter-spacing: 0px;
         rgba(216, 228, 214, 0.2) 96.81%
     );
   border-radius: 20px;
-  margin-bottom: 50px;
+  margin-top: 50px;
 }
-.section-4-card-images {
+.undervisningsplan-user-detail-card-images {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex-wrap: wrap;
     padding: 40px 0px 40px 40px;
 }
-.section-4-card-text-content {
+.undervisningsplan-user-detail-card-text-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #CCD6DA
 }
-.section-4-card-title{
+.undervisningsplan-user-detail-card-title{
 font-weight: 700;
 font-size: 28px;
 line-height: 100%;
@@ -445,7 +446,7 @@ color: #173B58;
 padding: 0px 0px 6px 0px;
 margin: 0px;
 }
-.section-4-card-paragraph{
+.undervisningsplan-user-detail-card-paragraph{
 font-weight: 500;
 font-size: 16px;
 line-height: 100%;
@@ -453,12 +454,12 @@ letter-spacing: 0%;
 color: #173B58;
 margin: 0px 0px 20px 0px;
 }
-.section-4-card-location {
+.undervisningsplan-user-detail-card-location {
   display: flex;
   gap: 20px;
   border-bottom: 1px solid #CCD6DA
 }
-.section-4-card-location p{
+.undervisningsplan-user-detail-card-location p{
 font-weight: 500;
 font-size: 16px;
 line-height: 100%;
@@ -469,7 +470,7 @@ font-weight: bold;
 padding: 20px 0px;
 margin: 0px;
 }
-.section-4-card-paragraph-text{
+.undervisningsplan-user-detail-card-paragraph-text{
 font-weight: 400;
 font-size: 16px;
 line-height: 37px;
@@ -478,8 +479,66 @@ color: #173B58;
 padding: 20px 0px 0px 0px;
 margin: 0px;
 }
+.section-5-container{
+  background-color: #FFFFFF;
+  padding: 0px 120px 80px 120px;
+}
+.section-5-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section-5-title{
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 4%;
+text-align: center;
+color: #173B58;
+margin: 0px;
+}
+.section-5-head-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-5-card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 51px 0px 60px 0px;
+}
+.section-5-card{
+    width: calc(33.33% - 24px);
+    text-align: center;
+}
+.section-5-user-image{
+   width: 100%;
+  height: auto;
+  padding-bottom: 16px;
+}
+.section-5-card-text{
+  margin: 0;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.section-5-button{
 
+  color: #173B58;
+  cursor: pointer;
+border-radius: 56px;
+border-width: 1px;
+padding: 20px 40px 21px 40px;
+border: 1px solid #173B58;
+background-color: #FFFFFF;
+font-weight: bold;
 
+}
 @media only screen and (max-width: 1200px) {
   
 .girl-image-caption{
